@@ -1,0 +1,29 @@
+{
+  "build": {
+    "core": "la264",
+    "cpu": "ls2k300",
+    "extra_flags": "-DLOONGSON_2K300",
+    "f_cpu": "100000000L",
+    "hwids": [
+      [
+        "0x1EAF",
+        "0x0003"
+      ],
+      [
+        "0x1EAF",
+        "0x0004"
+      ]
+    ],
+    "mcu": "ls2k300"
+  },
+  "frameworks": [
+    "allinone"
+  ],
+  "name": "Ls2k300",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 65536
+  },
+  "url": "https://www.loongson.cn",
+  "vendor": "Loongson"
+}
