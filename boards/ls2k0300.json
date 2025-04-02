@@ -1,8 +1,8 @@
 {
   "build": {
     "core": "la264",
-    "cpu": "ls2k300",
-    "extra_flags": "-DLOONGSON_2K300",
+    "cpu": "ls2k0300",
+    "extra_flags": "-DLOONGSON_2K0300",
     "f_cpu": "100000000L",
     "hwids": [
       [
@@ -19,7 +19,7 @@
   "frameworks": [
     "allinone"
   ],
-  "name": "Ls2k300",
+  "name": "Ls2k0300",
   "upload": {
     "maximum_ram_size": 8192,
     "maximum_size": 65536
