@@ -33,7 +33,7 @@ class Loongsonla64Platform(PlatformBase):
 
         frameworks = variables.get("pioframework", [])
         if "allinone" in frameworks:
-            print("[DEBUG] allinone is in framework")
+            print("[DEBUG] Found all-in-one framework")
             self.packages["toolchain-loongarch64"]["version"] = "1.0.0"
             self.packages["framework-allinone"]["optional"] = False
 
@@ -42,7 +42,7 @@ class Loongsonla64Platform(PlatformBase):
 
     def install_package(self, name, *args, **kwargs):
         pkg = super().install_package(name, *args, **kwargs)
-        
+
         return pkg
 
     def get_boards(self, id_=None):
@@ -50,4 +50,3 @@ class Loongsonla64Platform(PlatformBase):
         if not result:
             return result
         return result
-
