@@ -18,3 +18,9 @@ Usage
 1. [Install PlatformIO](https://platformio.org/)
 2. Create PlatformIO project and configure a platform option in
    [platformio.ini](https://docs.platformio.org/page/projectconf.html) file.
+
+Other Repositories
+---
+
+- [Cross-compiling toolchain (x86-64 => LoongArch64)](https://github.com/loongson-community/toolchain-loongarch64)
+- [Builder framework](https://github.com/loongson-community/builder-framework-loongarch)
